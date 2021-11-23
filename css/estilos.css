@@ -1,0 +1,39 @@
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.infoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 0.5rem;
+    border: 2px solid black;
+    background-color: blueviolet;
+}
+
+.House{
+    font-family: fantasy;
+    margin: 0.3rem;
+}
+
+.infoContainer p{
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.imagen{
+    background-size:contain;
+   
+}
+.imagen img{
+    width: 200px;
+    height: 300;
+    border-radius: 25px;
+}
+.Eyes{
+    margin: 1rem;
+}
